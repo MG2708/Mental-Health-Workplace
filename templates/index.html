@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .font-italic {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+            text-align: center;
+        }
+</style>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='/styles/home.css')}}">
-    <title>Mental Health</title>
+    <title>WorkMind Wellness Hub</title>
+    <link rel="icon" type="image/x-icon" href="./static/favicon_image.png">
 
 </head>
 
@@ -18,9 +28,10 @@
         <!-- Overlay inner wrapper -->
         <div class="overlay__inner">
             <!-- Title -->
-            <h1 class="overlay__title">
-                One place to know about your mental well-being!
-            </h1>
+            <h1 class="overlay__title">WorkMind Wellness Hub</h1>
+            <h3>
+                Seeking a one-stop-shop for information on workplace-related mental wellness?</h3>
+            <br> 
             <!-- Description -->
             <p class="overlay__description">
                 Your mental health is a crucial component of your overall well-being. It impacts your psychological, emotional, and social functioning, among other things.
@@ -329,6 +340,9 @@
 
                 </div>
             </form>
+            <div style="position: relative">
+            <p class="font-italic"> © 2023 - Mudit Garg</p>
+        </div>
     </div>
 </body>
 
